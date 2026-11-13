@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class ExpenceTracker {
     public static void main(String args[]) {
 
+        Scanner sc = new Scanner(System.in);
+
         // for loop that iterates 3 time for 3 days
         for(int i=1; i<=3; i++) {
             System.out.println("Day " + i);
