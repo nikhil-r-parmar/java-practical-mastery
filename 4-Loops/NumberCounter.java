@@ -9,6 +9,10 @@ public class NumberCounter {
         Scanner sc = new Scanner(System.in);
         int n;
 
+        System.out.print("Enter N");
+        n = sc.nextInt();
+        
+
 
     }
 }
