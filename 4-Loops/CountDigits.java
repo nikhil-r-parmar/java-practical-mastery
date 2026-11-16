@@ -7,7 +7,18 @@ public class CountDigits {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int number;
-        
+        long number;
+        int digits = 0;
+
+        System.out.print("Enter number: ");
+        number = sc.nextLong();
+
+        while (number != 0) {
+            number /= 10;
+            digits++;
+        }
+
+        System.out.println("Number of Digits: " + digits);
+
     }
 }
