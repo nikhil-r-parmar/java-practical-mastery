@@ -8,10 +8,18 @@ public class ReverseNumber {
 
         Scanner sc = new Scanner(System.in);
         int number;
-        int reverse;
+        int reverse = 0;
 
         System.out.print("Enter a number: ");
         number = sc.nextInt();
-        
+
+        while(number != 0) {
+            int eachDigit = number%10;
+            reverse = (reverse * 10) + eachDigit;
+            number /= 10;
+
+        }
+
+        System.out.println("Reversed Number: " + reverse);
     }
 }
