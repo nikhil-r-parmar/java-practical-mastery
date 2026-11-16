@@ -10,5 +10,17 @@ public class SumofDigits {
         long number;
         int sum = 0;
 
+        System.out.print("Enter number: ");
+        number = sc.nextLong();
+
+        while(number != 0) {
+            long digit = number%10;
+            sum += digit;
+            number = number/10;
+            
+        }
+
+        System.out.println("Sum of Digits: " + sum);
+
     }
 }
