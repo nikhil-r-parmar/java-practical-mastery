@@ -11,7 +11,10 @@ public class NumberCounter {
 
         System.out.print("Enter N");
         n = sc.nextInt();
-        
+
+        for(int i=1; i<=n; i++) {
+            
+        }
 
 
     }
