@@ -7,8 +7,7 @@ public class ExpenceTracker {
     public static void main(String args[]) {
 
         Scanner sc = new Scanner(System.in);
-        double dailyTotal = 0;
-        
+        double dailyTotal = 0;       
         double expence;
 
         // for loop that iterates 3 time for 3 days
@@ -16,10 +15,9 @@ public class ExpenceTracker {
             
             boolean positiveExpence = true;
             dailyTotal = 0;
-
             System.out.println("Day " + i);
 
-            // do-while loop to take each day expences
+            // while loop to take each day expences
             while (positiveExpence) {
 
                 System.out.print("Enter Expence: ");
@@ -32,7 +30,14 @@ public class ExpenceTracker {
                 }
             }
 
-            System.out.println("Day " + i + " Total: " + total);
+            System.out.println("Day " + i + " Total: " + dailyTotal);
         }
+
+        int i=1;
+        do {
+            System.out.println("Expence Tracker Completed");
+            i++;
+
+        } while (i<=3);
     }
 }
