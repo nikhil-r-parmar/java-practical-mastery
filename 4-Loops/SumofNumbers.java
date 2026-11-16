@@ -13,6 +13,13 @@ public class SumofNumbers {
         N = sc.nextInt();
 
         int i = 1;
-        while(i<=)
+        int sum = 0;
+
+        while(i<=N) {
+            sum += i;
+            i++;
+        }
+
+        System.out.println("Sum: " + sum);
     }
 }
