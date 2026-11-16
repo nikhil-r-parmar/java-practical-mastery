@@ -7,12 +7,32 @@ public class PalindromeChecker {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int number;
-        boolean Palindrom = false;
+        int number, backup;
+        boolean Palindrome = false;
 
         System.out.print("Enter number: ");
         number = sc.nextInt();
 
-        
+        backup = number;
+
+        int reverse = 0;
+        while(number != 0) {
+            int Digit = number % 10;
+            reverse = (reverse * 10) + Digit;
+            number /= 10;
+
+            if(reverse == backup) {
+                Palindrome = true;
+            }
+        }
+
+        if(Palindrome) {
+            System.out.println(backup + " is a Palindrome");
+
+        } else {
+            System.out.println(backup + " is not a Palindrome");
+
+        }
+
     }
 }
