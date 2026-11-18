@@ -5,7 +5,7 @@ public class MethodDebug {
 
     public static int calculateTotal(int price, int quantity) {
         int total = price * quantity;
-        return total
+        return total;
     }
 
     public static boolean isAffordable(int total, int budget) {
@@ -19,6 +19,9 @@ public class MethodDebug {
 
         int total = calculateTotal(price, quantity);
         boolean affordable = isAffordable(total, budget);
+
+        showMessage();
+        System.out.println("Total: " + total);
 
         if (affordable) {
             System.out.println("Affordable");
