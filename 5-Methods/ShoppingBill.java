@@ -3,18 +3,19 @@
 
 public class ShoppingBill {
 
-    public void showWelcome(){
-        System.out.println("Welcome to My Store.");
+    public static void showWelcome(){
+        System.out.println("Welcome to My Store");
     }
 
-    public void showBill() {
+    public static void showBill() {
         System.out.println("Item: Notebook");
         System.out.println("Price: 50");
     }
 
     public static void main(String[] args) {
-
-        
+        showWelcome();
+        showBill();
+        showBill();
 
     }
 }
