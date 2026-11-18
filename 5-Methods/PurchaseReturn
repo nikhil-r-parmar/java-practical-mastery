@@ -1,0 +1,9 @@
+
+// Create a program that calculates the total cost of purchasing items using a method that returns a value.
+
+public class PurchaseReturn {
+    public static int calculateTotal(int price, int quantity) {
+        return price * quantity;
+
+    }
+}
