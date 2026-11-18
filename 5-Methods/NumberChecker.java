@@ -8,12 +8,18 @@ public class NumberChecker {
         
         } else {
             return false;
-            
+
         }
 
     }
 
     public static void main(String[] args) {
+
+        System.out.println("is positive: " + checkNumber(10));
+        System.out.println("is positive: " + checkNumber(-5));
+        System.out.println("is positive: " + checkNumber(0));
+        System.out.println("is positive: " + checkNumber(1));
+
 
     }
 
