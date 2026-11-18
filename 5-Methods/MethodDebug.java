@@ -5,18 +5,19 @@ public class MethodDebug {
 
     public static int calculateTotal(int price, int quantity) {
         int total = price * quantity;
-        System.out.println("Total: " + total);
+        return total
     }
 
     public static boolean isAffordable(int total, int budget) {
         if (total <= budget) {
             return true;
         }
+        return false;
     }
 
     public static void displayResult(int price, int quantity, int budget) {
 
-        int total = calculateTotal(quantity, price);
+        calculateTotal(price, quantity);
 
         boolean affordable = isAffordable(total, budget);
 
@@ -25,10 +26,10 @@ public class MethodDebug {
         } else {
             System.out.println("Not Affordable");
         }
+    }
 
-        public static void showMessage() {
-            System.out.println("Purchase Check Complete");
-        }
+    public static void showMessage() {
+        System.out.println("Purchase Check Complete");
     }
 
     public static void main(String[] args) {
