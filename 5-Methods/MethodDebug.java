@@ -17,8 +17,7 @@ public class MethodDebug {
 
     public static void displayResult(int price, int quantity, int budget) {
 
-        calculateTotal(price, quantity);
-
+        int total = calculateTotal(price, quantity);
         boolean affordable = isAffordable(total, budget);
 
         if (affordable) {
