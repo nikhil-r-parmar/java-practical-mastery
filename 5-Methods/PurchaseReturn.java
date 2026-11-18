@@ -6,4 +6,12 @@ public class PurchaseReturn {
         return price * quantity;
 
     }
+
+    public static void main(String[] args) {
+        int price = calculateTotal(100, 3);
+
+        System.out.println("Stored Total: " + price);
+        System.out.println("Direct Total: " + calculateTotal(100, 3));
+
+    }
 }
