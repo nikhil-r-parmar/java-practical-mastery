@@ -20,7 +20,6 @@ public class MethodDebug {
         int total = calculateTotal(price, quantity);
         boolean affordable = isAffordable(total, budget);
 
-        showMessage();
         System.out.println("Total: " + total);
 
         if (affordable) {
@@ -35,6 +34,7 @@ public class MethodDebug {
     }
 
     public static void main(String[] args) {
+        showMessage();
         displayResult(100, 2, 300);
     }
 }
