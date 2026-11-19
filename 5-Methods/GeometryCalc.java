@@ -10,7 +10,7 @@ public class GeometryCalc {
         return length * breadth;
     }
 
-    public staic double area(double radius) {
+    public static double area(double radius) {
         return 3.14 * radius * radius;
     }
 
@@ -19,6 +19,11 @@ public class GeometryCalc {
     }
 
     public static void main(String[] args) {
+
+        System.out.println(area(5));
+        System.out.println(area(10, 25));
+        System.out.println(area(18.45));
+        System.out.println(area(18.45, 10.7));
 
     }
 }
