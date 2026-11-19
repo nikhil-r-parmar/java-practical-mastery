@@ -19,5 +19,9 @@ public class FlexibleNotification {
 
     public static void main(String[] args) {
 
+        send("Hello World");
+        send("Nikhil","Hello Nikhil");
+        send("K30", "Hello Khushi", 1);
+
     }
 }
