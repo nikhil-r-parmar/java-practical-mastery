@@ -5,5 +5,11 @@ public class Product {
     int quantity;
     double price;
     boolean available;
-    
+
+}
+
+public class DefaultField {
+    public static void main(String[] args) {
+        Product Product = new Product();
+    }
 }
