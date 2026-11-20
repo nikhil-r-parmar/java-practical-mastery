@@ -12,7 +12,14 @@ public class ECommerce {
 
     }
 
-    public static double finalPrice() {
+    public static double finalPrice(double amount, String couponCode) {
+        if (cuponCode.equals("SAVE200") && amount>=200) {
+            return amount - 200;
+
+        } else {
+            return amount;
+            
+        }
 
     }
 
