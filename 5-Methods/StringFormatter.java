@@ -7,7 +7,12 @@ public class StringFormatter {
 
     }
 
-    public static String format() {
+    public static String format(String text, int maxLength) {
+        if (text.lenght() > maxLength) {
+            return (text.substring(0, maxLenght)).append("...");
+        } else {
+            return text;
+        }
 
     }
 
