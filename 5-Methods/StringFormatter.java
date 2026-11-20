@@ -16,7 +16,8 @@ public class StringFormatter {
 
     }
 
-    public static String format() {
+    public static String format(String text, char borderChar) {
+        return (borderChar + text.trim() + borderChar);
 
     }
 
