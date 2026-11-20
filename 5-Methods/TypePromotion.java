@@ -17,4 +17,13 @@ public class TypePromotion {
 
     }
 
+    public static void main(String[] args) {
+        analyze(10);
+        analyze(3.5f);
+        analyze('N');   // print's it's ascii value
+        analyze(1032l);
+        analyze(18, 45);
+
+    }
+
 }
