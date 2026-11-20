@@ -12,4 +12,11 @@ public class AmbiguityTrap {
 
     }
 
+    public static void main(String[] args) {
+        // calculate(5, 5);    // this give's error because double function also work's if it get's int, so here the confussion becomes.
+        calculate(5.5, 5);
+        calculate(18, 45.7);
+
+    }
+
 }
