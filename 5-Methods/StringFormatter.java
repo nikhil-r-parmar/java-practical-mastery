@@ -8,8 +8,8 @@ public class StringFormatter {
     }
 
     public static String format(String text, int maxLength) {
-        if (text.lenght() > maxLength) {
-            return (text.substring(0, maxLenght)).append("...");
+        if (text.length() > maxLength) {
+            return ((text.substring(0, maxLength)) + "...");
         } else {
             return text;
         }
@@ -21,6 +21,11 @@ public class StringFormatter {
 
     }
 
+    public static void main(String[] args) {
+        System.out.println(format("nickyp"));
+        System.out.println(format("nickyp", 5));
+        System.out.println(format("nickyp", '^'));
 
+    }
 
 }
