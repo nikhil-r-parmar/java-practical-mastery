@@ -8,4 +8,8 @@ class Calculator {
     public int add() {
         return number1+number2;
     }
+
+    public int subtract() {
+        return number1-number2;
+    }
 }
