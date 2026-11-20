@@ -4,5 +4,8 @@
 class Calculator {
     int number1 = 18;
     int number2 = 6;
-    
+
+    public int add() {
+        return number1+number2;
+    }
 }
