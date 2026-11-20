@@ -20,5 +20,9 @@ public class InstanceMethods2 {
         employee.basicSalary = 20000.0;
         employee.bonus = 3000.0;
 
+        double totalSalary = employee.calculateSalary(2000.0);
+
+        System.out.println("Total Salary: " + totalSalary);
+
     }
 }
