@@ -7,7 +7,8 @@ public class ECommerce {
 
     }
 
-    public static double finalPrice() {
+    public static double finalPrice(double amount, double discountPer) {
+        return amount + (amount * (discountPer/100));
 
     }
 
