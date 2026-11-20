@@ -17,3 +17,14 @@ class Calculator {
         return number1*number2;
     }
 }
+
+public class MultipleMethods {
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+
+        System.out.println("Addition: " + calc.add());
+        System.out.println("Subtraction: " + calc.subtract());
+        System.out.println("Multiplication: " + calc.multiply());
+
+    }
+}
