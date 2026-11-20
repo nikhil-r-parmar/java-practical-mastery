@@ -20,5 +20,7 @@ public class InstanceMethod3 {
         shop.price = 150.0;
         shop.quantity = 5;
 
+        shop.displayBill();
+
     }
 }
