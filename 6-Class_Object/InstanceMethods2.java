@@ -15,6 +15,10 @@ class Employee {
 
 public class InstanceMethods2 {
     public static void main(String[] args) {
+        Employee employee = new Employee();
+
+        employee.basicSalary = 20000.0;
+        employee.bonus = 3000.0;
 
     }
 }
