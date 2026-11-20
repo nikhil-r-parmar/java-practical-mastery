@@ -16,6 +16,9 @@ class Shop {
 
 public class InstanceMethod3 {
     public static void main(String[] args) {
+        Shop shop = new Shop();
+        shop.price = 150.0;
+        shop.quantity = 5;
 
     }
 }
