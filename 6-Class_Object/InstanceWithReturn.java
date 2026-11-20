@@ -10,3 +10,14 @@ class Product {
     }
 
 }
+
+public class InstanceWithReturn {
+    public static void main(String[] args) {
+
+        Product Calctotal = new Product();
+
+        double total = Calctotal.calculateTotal();
+        System.out.println("Total Price: " + total);
+
+    }
+}
