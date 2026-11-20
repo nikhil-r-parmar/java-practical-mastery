@@ -17,4 +17,11 @@ public class StuEmpProfile {
 
     }
 
+    public static void main(String[] args) {
+        display(18, "Nikhil");
+        display("Prem", 5);
+        display("Tushar", 99.9);
+
+    }
+
 }
