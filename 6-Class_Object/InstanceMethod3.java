@@ -8,6 +8,10 @@ class Shop {
     public double calculateTotal() {
         return price * quantity;
     }
+
+    public void displayBill() {
+        System.out.println("Total Bill: " + calculateTotal());
+    }
 }
 
 public class InstanceMethod3 {
