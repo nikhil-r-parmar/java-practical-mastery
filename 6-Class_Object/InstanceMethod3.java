@@ -4,4 +4,14 @@
 class Shop {
     double price;
     int quantity;
+
+    public double calculateTotal() {
+        return price * quantity;
+    }
+}
+
+public class InstanceMethod3 {
+    public static void main(String[] args) {
+
+    }
 }
