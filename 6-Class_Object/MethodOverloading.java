@@ -6,5 +6,9 @@ class AreaCalculator {
         return side * side;
 
     }
-    
+
+    int calculateArea(int length, int width) {
+        return length * width;
+        
+    }
 }
