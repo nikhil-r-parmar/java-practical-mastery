@@ -15,6 +15,12 @@ public class ShoppingCart {
 
     }
 
+    displayBill() {
+        System.out.println("Origional Total: " + calculateTotal());
+        System.out.println("Discounted Total: " + calculateTotal(100.0));
+
+    }
+
     public static void main(String[] args) {
         ShoppingCart cart1 = new ShoppingCart();
         cart1.itemPrice = 150.0;
@@ -23,6 +29,7 @@ public class ShoppingCart {
         ShoppingCart cart2 = new ShoppingCart();
         cart1.itemPrice = 200.0;
         cart1.itemQuantity = 3;
+        
 
 
     }
