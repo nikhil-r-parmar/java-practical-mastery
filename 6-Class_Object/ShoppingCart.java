@@ -3,21 +3,21 @@
 
 public class ShoppingCart {
     double itemPrice;
-    double itemQuantity;
+    int itemQuantity;
 
-    calculateTotal() {
+    double calculateTotal() {
         return itemPrice * itemQuantity;
 
     }
 
-    calculateTotal(double discount) {
+    double calculateTotal(double discount) {
         return calculateTotal() - discount;
 
     }
 
-    displayBill() {
+    void displayBill(double discount) {
         System.out.println("Origional Total: " + calculateTotal());
-        System.out.println("Discounted Total: " + calculateTotal(100.0));
+        System.out.println("Discounted Total: " + calculateTotal(discount));
 
     }
 
@@ -25,12 +25,12 @@ public class ShoppingCart {
         ShoppingCart cart1 = new ShoppingCart();
         cart1.itemPrice = 150.0;
         cart1.itemQuantity = 4;
+        cart1.displayBill(100.0);
 
         ShoppingCart cart2 = new ShoppingCart();
-        cart1.itemPrice = 200.0;
-        cart1.itemQuantity = 3;
-        
-
+        cart2.itemPrice = 200.0;
+        cart2.itemQuantity = 3;
+        cart2.displayBill(150.0);
 
     }
 
