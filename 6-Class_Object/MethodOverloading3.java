@@ -5,7 +5,7 @@ class BillCalculator {
     double price;
 
     public double calculateBill(int quantity) {
-        return quantity * quantity;
+        return price * quantity;
     }
 
     public double calculateBill(int quantity, int discount) {
@@ -20,7 +20,8 @@ public class MethodOverloading3 {
 
         bill.price = 100.0;
 
-
+        System.out.println("Bill without Discount: " + bill.calculateBill(5));
+        System.out.println("Bill with Discount: " + bill.calculateBill(5, 100));
 
     }
 }
