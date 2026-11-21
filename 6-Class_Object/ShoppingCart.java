@@ -7,7 +7,13 @@ public class ShoppingCart {
 
     public static void main(String[] args) {
         ShoppingCart cart1 = new ShoppingCart();
+        cart1.itemPrice = 150.0;
+        cart1.itemQuantity = 4;
+
         ShoppingCart cart2 = new ShoppingCart();
+        cart1.itemPrice = 200.0;
+        cart1.itemQuantity = 3;
+
 
     }
 
