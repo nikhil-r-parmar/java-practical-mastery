@@ -5,6 +5,11 @@ public class ShoppingCart {
     double itemPrice;
     double itemQuantity;
 
+    calculateTotal() {
+        return itemPrice * itemQuantity;
+        
+    }
+
     public static void main(String[] args) {
         ShoppingCart cart1 = new ShoppingCart();
         cart1.itemPrice = 150.0;
