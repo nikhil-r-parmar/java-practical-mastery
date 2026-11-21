@@ -6,6 +6,11 @@ class Order {
     double price;
     int quantity;
 
+    public double calculateTotal(int) {
+        return price * quantity;
+
+    }
+
 }
 
 public class MethodOverloading5 {
