@@ -6,8 +6,13 @@ class Order {
     double price;
     int quantity;
 
-    public double calculateTotal(int) {
+    public double calculateTotal() {
         return price * quantity;
+
+    }
+
+    public double calculateTotal(int discount) {
+        return calculateTotal() - discount;
 
     }
 
