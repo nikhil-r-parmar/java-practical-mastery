@@ -7,7 +7,12 @@ public class ShoppingCart {
 
     calculateTotal() {
         return itemPrice * itemQuantity;
-        
+
+    }
+
+    calculateTotal(double discount) {
+        return calculateTotal() - discount;
+
     }
 
     public static void main(String[] args) {
