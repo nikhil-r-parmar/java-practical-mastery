@@ -22,5 +22,10 @@ public class MethodOverloading4 {
         temp1.celsius = 25.0;
         temp2.celsius = 30.0;
 
+        System.out.println("Temp 1 Origional: " + temp1.convert());
+        System.out.println("Temp 1 Adjusted: " + temp1.convert(2.0));
+        System.out.println("Temp 2 Origional: " + temp2.convert());
+        System.out.println("Temp 2 Adjusted: " + temp2.convert(3.0));
+
     }
 }
