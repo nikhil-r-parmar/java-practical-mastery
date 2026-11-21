@@ -25,5 +25,8 @@ public class MethodOverloading5 {
         order.price = 200.0;
         order.quantity = 3;
 
+        System.out.println("Origional Total: " + order.calculateTotal());
+        System.out.println("Discounted Total: " + order.calculateTotal(100));
+
     }
 }
