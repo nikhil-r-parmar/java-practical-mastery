@@ -7,8 +7,9 @@ public class ValidIndex {
 
         System.out.println("Array Length: " + scores.length);
         System.out.println("First Element: " + scores[0]);
-        System.out.println("Last Element: " + scores[1-scores.length]);
-        System.out.println("Element at index 2: " + scores[1]);
+        System.out.println("Last Element: " + scores[scores.length-1]);
+        System.out.println("Element at index 2: " + scores[2]);
+        System.out.println("Valid Index Range: 0 to " + (scores.length-1));
 
 
     }
