@@ -16,5 +16,8 @@ public class CountElements {
 
         }
 
+        System.out.println("Passed Students: " + passed);
+        System.out.println("Failed Students: " + failed);
+
     }
 }
