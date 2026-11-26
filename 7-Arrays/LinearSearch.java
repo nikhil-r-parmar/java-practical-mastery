@@ -8,6 +8,9 @@ public class LinearSearch {
         int search = 520;
 
         for (int i=0; i<codes.length; i++) {
+            if (codes[i] == search) {
+                
+            }
             
         }
 
