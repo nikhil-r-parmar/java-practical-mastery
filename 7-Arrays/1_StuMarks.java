@@ -4,6 +4,10 @@
 
 public class 1_StuMarks {
     public static void main(String[] args) {
+
+        int marks[5] = new marks[5];
+
         
+
     }
 }
