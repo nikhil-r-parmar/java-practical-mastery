@@ -5,7 +5,13 @@
 
 public class UpdateElements {
     public static void main(String[] args) {
-        double[] salary = {20000, 25000, 30000, 35000, 40000};
+        int[] salary = {20000, 25000, 30000, 35000, 40000};
+
+        System.out.println("Updated Salaries: ");
+        for(int i=0; i<salary.length; i++) {
+            salary[i] += 5000;
+            System.out.println(salary[i]);
+        }
 
     }
 }
