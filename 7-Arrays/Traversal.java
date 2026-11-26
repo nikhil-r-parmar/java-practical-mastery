@@ -11,5 +11,11 @@ public class Traversal {
             System.out.println(numbers[i]);
         }
 
+        // Backward Traversal
+        System.out.println("Reverse Traversal: "); 
+        for (int i=(numbers.length-1); i>=0; i--) {
+            System.out.println(numbers[i]);
+        }
+
     }
 }
