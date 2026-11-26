@@ -7,7 +7,12 @@ public class 1_StuMarks {
 
         int marks[5] = new marks[5];
 
-        
+        marks[0] = 99;
+        marks[1] = 32;
+        marks[2] = 54;
+        marks[3] = 67;
+        marks[4] = 75;
+
 
     }
 }
