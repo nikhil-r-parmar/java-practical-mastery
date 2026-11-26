@@ -13,6 +13,11 @@ public class 1_StuMarks {
         marks[3] = 67;
         marks[4] = 75;
 
+        System.out.println("Subject 1: " + marks[0]);
+        System.out.println("Subject 2: " + marks[1]);
+        System.out.println("Subject 3: " + marks[2]);
+        System.out.println("Subject 4: " + marks[3]);
+        System.out.println("Subject 5: " + marks[4]);
 
     }
 }
