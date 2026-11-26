@@ -11,5 +11,14 @@ public class InitializerLists {
         System.out.println("Prices Length: " + prices.length);
         System.out.println("Names Length: " + names.length);
 
+        System.out.println("\nAge First: " + ages[0]);
+        System.out.println("Age Last: " + ages[ages.length - 1]);
+
+        System.out.println("\nPrices First: " + prices[0]);
+        System.out.println("Prices Last: " + prices[prices.length - 1]);
+        
+        System.out.println("\nNames First: " + names[0]);
+        System.out.println("Names Last: " + names[names.length - 1]);
+
     }
 }
