@@ -2,10 +2,10 @@
 // A student wants to store marks for five subjects.
 // Using five separate variables would make the data difficult to manage. Use one integer array instead.
 
-public class 1_StuMarks {
+public class StudentMarks {
     public static void main(String[] args) {
 
-        int marks[5] = new marks[5];
+        int marks[] = new int[5];
 
         marks[0] = 99;
         marks[1] = 32;
