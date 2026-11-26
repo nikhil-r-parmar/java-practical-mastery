@@ -12,7 +12,7 @@ public class SumAvg {
         }
         System.out.println("Total Marks: " + sum);
 
-        double avg = sum / marks.length;
+        double avg = sum / (double)marks.length;
         System.out.println("Average Marks: " + avg);
 
 
