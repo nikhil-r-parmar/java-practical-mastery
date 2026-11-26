@@ -18,6 +18,7 @@ public class CopyArray {
 
         }
         
+        origional[0] = 99;
 
     }
 }
