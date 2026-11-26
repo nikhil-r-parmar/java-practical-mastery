@@ -12,13 +12,19 @@ public class CopyArray {
 
         }
 
-        System.out.println("Copied array: ")
+        System.out.println("Copied array: ");
         for (int i=0; i<origional.length; i++) {
             System.out.println(copy[i]);
 
         }
         
         origional[0] = 99;
+
+        System.out.println("Copy After Original Update: ");
+        for (int i=0; i<origional.length; i++) {
+            System.out.println(copy[i]);
+
+        }
 
     }
 }
