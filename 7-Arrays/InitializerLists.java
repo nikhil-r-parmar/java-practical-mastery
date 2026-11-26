@@ -20,5 +20,12 @@ public class InitializerLists {
         System.out.println("\nNames First: " + names[0]);
         System.out.println("Names Last: " + names[names.length - 1]);
 
+        ages[1] = 21;
+
+        System.out.println("\nUpdated Ages: ");
+        for (int i=0; i<ages.length; i++) {
+            System.out.println(ages[i]);
+        }
+
     }
 }
