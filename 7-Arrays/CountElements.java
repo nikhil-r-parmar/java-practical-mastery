@@ -8,9 +8,11 @@ public class CountElements {
         int passed = 0, failed = 0;
 
         for(int i=0; i<marks.length; i++) {
-            if (marks >= 35) {
+            if (marks[i] >= 35) {
                 passed++;
-            } 
+            } else {
+                failed++;
+            }
 
         }
 
