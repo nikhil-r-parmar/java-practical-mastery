@@ -20,8 +20,7 @@ public class MatrixAddition {
 
         for(int i=0; i<matrixA.length; i++) {
             for(int j=0; j<matrixB.length; j++) {
-                System.out.println(matrixA[i][j]);
-                System.out.println(matrixB[i][j]);
+                sumMatrix[i][j] = matrixA[i][j] + matrixB[i][j];
 
             }
         }
