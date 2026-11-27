@@ -21,10 +21,10 @@ public class Basic3DArrays {
         for(int i=0; i<college.length; i++){
 
             System.out.println("Semester " + (i+1) + ": ");
-            for(int j=0; j<college.length; j++) {
+            for(int j=0; j<college[i].length; j++) {
 
                 System.out.print("Student " + (j+1) + ": "); 
-                for(int k=0; k<college.length; k++) {
+                for(int k=0; k<college[i][j].length; k++) {
                     System.out.print(college[i][j][k] + " ");
 
                 }
