@@ -5,5 +5,19 @@ public class CheckDuplicates {
     public static void main(String[] args) {
         int[] ids = {101, 205, 310, 415, 205, 520};
 
+        boolean duplicate = false;
+
+        for (int i=0; i<ids.length; i++) {
+            for (int j=1; j<ids.length; j++) {
+                System.out.println("i - " + ids[i]);
+                System.out.println("j - " + ids[j]);
+
+                if (ids[i] == ids[j]) {
+                    System.out.println("Duplicate Found");
+                }
+            }
+            System.out.println();
+        }
+
     }
 }
