@@ -5,5 +5,9 @@ public class FrequencyCounter {
     public static void main(String[] args) {
         int[] numbers = {2, 5, 2, 8, 5, 2, 9, 8};
 
+        int appear2 = 0;
+        int appear5 = 0;
+        int appear8 = 0;
+
     }
 }
