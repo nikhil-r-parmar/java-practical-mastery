@@ -17,13 +17,21 @@ public class Basic3DArrays {
             }
         };
 
+
         for(int i=0; i<college.length; i++){
+
+            System.out.println("Semester " + (i+1) + ": ");
             for(int j=0; j<college.length; j++) {
-                for(int k=0; j<college.length; j++) {
-                    
+
+                System.out.print("Student " + (j+1) + ": "); 
+                for(int k=0; k<college.length; k++) {
+                    System.out.print(college[i][j][k] + " ");
+
                 }
+                System.out.println();
 
             }
+            System.out.println();
 
         }
 
