@@ -10,5 +10,9 @@ public class TransposeMatrix {
         };
 
         int[][] transposeMatrix = new int[3][3];
+
+        for (int i=0; i<matrix.length; i++) {
+            
+        }
     }
 }
