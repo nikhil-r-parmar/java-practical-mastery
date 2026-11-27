@@ -17,10 +17,13 @@ public class DiagonalSum {
         System.out.println("Primary Diagonal Sum: " + primaryDiagonalSum);
 
         int secondaryDiagonalSum = 0;
+        int j=0;
         for (int i=(matrix.length-1); i>=0; i--) {
-            System.out.println(matrix[i][i]);
-
+            secondaryDiagonalSum += matrix[j][i];
+            j++;
         }
+
+        System.out.println("Secondary Diagonal Sum: " + secondaryDiagonalSum);
 
     }
 }
