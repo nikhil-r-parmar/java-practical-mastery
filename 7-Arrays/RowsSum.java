@@ -18,7 +18,7 @@ public class RowsSum {
             for(int j=0; j<(marks[i].length); j++) {
                 sum += marks[i][j];
             }
-            System.out.println("Student " + (i+1) + " Marks: " + sum);
+            System.out.println("Student " + (i+1) + " Total: " + sum);
         }
 
     }
