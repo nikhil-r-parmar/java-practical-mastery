@@ -19,5 +19,14 @@ public class TransposeMatrix {
             }
             System.out.println();
         }
+
+        System.out.println("\nTransposed Matrix: ");
+        for (int i=0; i<matrix.length; i++) {
+            for(int j=0; j<matrix.length; j++) {
+                System.out.print(transposeMatrix[i][j] + " ");
+                
+            }
+            System.out.println();
+        }
     }
 }
