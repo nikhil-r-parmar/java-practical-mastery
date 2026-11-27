@@ -13,7 +13,7 @@ public class CheckDuplicates {
                 System.out.println("j - " + ids[j]);
 
                 if (ids[i] == ids[j]) {
-                    System.out.println("Duplicate Found");
+                    duplicate = true;
                 }
             }
             System.out.println();
