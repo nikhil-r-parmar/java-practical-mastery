@@ -10,9 +10,18 @@ public class MatrixSearch {
         };
 
         int target = 60;
+        boolean found = false;
 
         for (int i=0; i<matrix.length; i++) {
-            System.out.println(matrix[i][i]);
+            for(int j=0; j<matrix.length; j++) {
+                if(target == matrix[i][j]) {
+                    Syste
+                }
+            }
+        }
+
+        if (found) {
+            System.out.prin
         }
 
     }
