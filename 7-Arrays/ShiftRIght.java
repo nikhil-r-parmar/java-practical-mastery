@@ -8,14 +8,19 @@ public class ShiftRight {
 
         int temp = numbers[numbers.length-1];
 
-        for (int i=0; i<numbers.length; i++) {
-            numbers[i+1] = numbers[i];
+        for (int i=(numbers.length-1); i>0; i--) {
+            numbers[i] = numbers[i-1];
+            System.out.println(numbers[i]);
 
         }
 
         numbers[0] = temp;
 
-        
+        System.out.println("Right Shifted Array: ");
+        for(int i=0; i<numbers.length; i++) {
+            System.out.println(numbers[i]);
+
+        }
 
     }
 }
