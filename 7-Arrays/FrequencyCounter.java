@@ -19,7 +19,11 @@ public class FrequencyCounter {
             }
 
         }
-        
+
+        System.out.println("Frequency of 2: " + appear2);
+        System.out.println("Frequency of 5: " + appear5);
+        System.out.println("Frequency of 8: " + appear8);
+
 
     }
 }
