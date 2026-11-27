@@ -4,7 +4,11 @@
 
 public class TwoDArrays {
     public static void main(String[] args) {
-        int[][] marks 
+        int[][] marks = {
+            {70, 80, 90, 85},
+            {60, 75, 88, 92},
+            {95, 89, 78, 84}
+        }
 
     }
 }
