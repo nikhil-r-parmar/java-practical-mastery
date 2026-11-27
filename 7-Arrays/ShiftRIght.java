@@ -10,7 +10,6 @@ public class ShiftRight {
 
         for (int i=(numbers.length-1); i>0; i--) {
             numbers[i] = numbers[i-1];
-            System.out.println(numbers[i]);
 
         }
 
