@@ -15,8 +15,9 @@ public class ShiftLeft {
 
         numbers[numbers.length-1] = temp;
 
+        System.out.println("Left Shifted Array: ");
         for (int i=0; i<numbers.length; i++) {
-            System.out.println(numbers[i])
+            System.out.println(numbers[i]);
         }
 
 
