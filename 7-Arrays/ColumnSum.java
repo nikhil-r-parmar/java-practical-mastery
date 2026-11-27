@@ -9,5 +9,13 @@ public class ColumnSum {
             {95, 89, 78, 84}
         };
 
+        for (int i=0; i<marks[0].length; i++) {
+            int sum = 0;
+            for (int j=0; j<marks.length; j++) {
+                sum += marks[j][i];
+            }
+            System.out.println("Subject " + (i+1) + " Total: " + sum);
+        }
+
     }
 }
