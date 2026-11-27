@@ -7,10 +7,7 @@ public class CopyArray {
         int[] origional = {12, 24, 36, 48, 60};
         int[] copy = new int[origional.length];
 
-        for (int i=0; i<origional.length; i++) {
-            copy[i] = origional[i];
-
-        }
+        System.arraycopy(origional, 0, copy, 0, origional.length);
 
         System.out.println("Copied array: ");
         for (int i=0; i<origional.length; i++) {
