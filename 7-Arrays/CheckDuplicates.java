@@ -8,10 +8,9 @@ public class CheckDuplicates {
         boolean duplicate = false;
 
         for (int i=0; i<ids.length; i++) {
-            for (int j=1; j<ids.length; j++) {
+            for (int j=i+1; j<ids.length; j++) {
                 if (ids[i] == ids[j]) {
                     duplicate = true;
-                    continue;
                 }
             }
         }
