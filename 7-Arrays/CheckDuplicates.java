@@ -9,14 +9,17 @@ public class CheckDuplicates {
 
         for (int i=0; i<ids.length; i++) {
             for (int j=1; j<ids.length; j++) {
-                System.out.println("i - " + ids[i]);
-                System.out.println("j - " + ids[j]);
-
                 if (ids[i] == ids[j]) {
                     duplicate = true;
+                    continue;
                 }
             }
-            System.out.println();
+        }
+
+        if (duplicate) {
+            System.out.println("Duplicate Found");
+        } else {
+            System.out.println("No Duplicate Found");
         }
 
     }
