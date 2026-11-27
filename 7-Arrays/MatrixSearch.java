@@ -9,5 +9,7 @@ public class MatrixSearch {
             {70, 80, 90}
         };
 
+        int target = 60;
+
     }
 }
