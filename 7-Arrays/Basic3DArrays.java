@@ -6,7 +6,7 @@
 
 public class Basic3DArrays {
     public static void main(String[] args) {
-        int[][][] int = {
+        int[][][] college = {
             {
                 {70, 80},
                 {85, 90}
@@ -16,6 +16,9 @@ public class Basic3DArrays {
                 {92, 95}
             }
         };
+
+        for(int i=0; i<)
+        System.out.println()
         
     }
 }
