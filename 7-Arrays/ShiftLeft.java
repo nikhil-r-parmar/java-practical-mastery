@@ -8,9 +8,15 @@ public class ShiftLeft {
 
         int temp = numbers[0];
 
-        for (int i=0; i<numbers.length; i++) {
+        for (int i=0; i<(numbers.length-1); i++) {
             numbers[i] = numbers[i+1];
 
+        }
+
+        numbers[numbers.length-1] = temp;
+
+        for (int i=0; i<numbers.length; i++) {
+            System.out.println(numbers[i])
         }
 
 
