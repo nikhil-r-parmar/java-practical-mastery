@@ -7,7 +7,12 @@ public class ShiftLeft {
         int[] numbers = {10, 20, 30, 40, 50};
 
         int temp = numbers[0];
-        
+
+        for (int i=0; i<numbers.length; i++) {
+            numbers[i] = numbers[i+1];
+
+        }
+
 
     }
 }
