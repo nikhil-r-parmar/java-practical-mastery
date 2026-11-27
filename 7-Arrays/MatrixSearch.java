@@ -15,13 +15,17 @@ public class MatrixSearch {
         for (int i=0; i<matrix.length; i++) {
             for(int j=0; j<matrix.length; j++) {
                 if(target == matrix[i][j]) {
-                    Syste
+                    found = true;
+                    System.out.println("Element Found!");
+                    System.out.println("Row Index: " + i);
+                    System.out.println("Column Index: " + j);
+
                 }
             }
         }
 
-        if (found) {
-            System.out.prin
+        if (!found) {
+            System.out.println("Element Not Found!");
         }
 
     }
