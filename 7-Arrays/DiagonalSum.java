@@ -9,9 +9,12 @@ public class DiagonalSum {
             {70, 80, 90}
         };
 
+        int primaryDiagonalSum = 0;
         for(int i=0; i<matrix.length; i++) {
-            System.out.println(matrix[i][0]);
+            primaryDiagonalSum += matrix[i][i];
         }
+
+        System.out.println("Primary Diagonal Sum: " + primaryDiagonalSum);
 
     }
 }
