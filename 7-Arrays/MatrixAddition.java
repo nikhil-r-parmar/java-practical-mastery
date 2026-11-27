@@ -3,6 +3,18 @@
 
 public class MatrixAddition {
     public static void main(String[] args) {
-        
+
+        int[][] matrixA = {
+            {10, 20, 30},
+            {40, 50, 60},
+            {70, 80, 90}
+        };
+
+        int[][] matrixB = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+
     }
 }
