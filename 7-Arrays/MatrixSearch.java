@@ -11,5 +11,9 @@ public class MatrixSearch {
 
         int target = 60;
 
+        for (int i=0; i<matrix.length; i++) {
+            System.out.println(matrix[i][i]);
+        }
+
     }
 }
