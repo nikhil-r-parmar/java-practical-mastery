@@ -10,5 +10,15 @@ public class RowsSum {
             {95, 89, 78, 84}
         }
 
+        int s1sum = 0;
+        int s2sum = 0;
+        int s3sum = 0;
+
+        for(int i=0; i<marks.length; i++) {
+            for(int j=0; j<(marks[i].length); j++) {
+                
+            }
+        }
+
     }
 }
