@@ -10,5 +10,9 @@ public class TwoDArrays {
             {95, 89, 78, 84}
         }
 
+        for (int i=0; i<marks.length; i++) {
+            
+        }
+
     }
 }
