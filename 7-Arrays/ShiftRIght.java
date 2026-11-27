@@ -13,5 +13,9 @@ public class ShiftRight {
 
         }
 
+        numbers[0] = temp;
+
+        
+
     }
 }
