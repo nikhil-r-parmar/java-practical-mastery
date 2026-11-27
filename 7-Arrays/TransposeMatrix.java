@@ -11,9 +11,11 @@ public class TransposeMatrix {
 
         int[][] transposeMatrix = new int[3][3];
 
+        System.out.println("\nOrigional Matrix: ");
         for (int i=0; i<matrix.length; i++) {
             for(int j=0; j<matrix.length; j++) {
-                System.out.println(matrix[i][j]);
+                transposeMatrix[j][i] = matrix[i][j];
+                System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
         }
