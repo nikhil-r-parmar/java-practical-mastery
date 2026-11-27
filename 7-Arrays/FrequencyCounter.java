@@ -9,5 +9,17 @@ public class FrequencyCounter {
         int appear5 = 0;
         int appear8 = 0;
 
+        for (int i=0; i<numbers.length; i++) {
+            if (numbers[i] == 2) {
+                appear2++;
+            } else if (numbers[i] == 5) {
+                appear5++;
+            } else if (numbers[i] == 8) {
+                appear8++;
+            }
+
+        }
+        
+
     }
 }
