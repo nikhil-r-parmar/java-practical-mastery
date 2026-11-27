@@ -8,5 +8,10 @@ public class ShiftRight {
 
         int temp = numbers[numbers.length-1];
 
+        for (int i=0; i<numbers.length; i++) {
+            numbers[i+1] = numbers[i];
+
+        }
+
     }
 }
