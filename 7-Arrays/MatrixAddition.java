@@ -16,5 +16,7 @@ public class MatrixAddition {
             {7, 8, 9}
         };
 
+        int[][] sumMatrix = new int[3][3];
+
     }
 }
