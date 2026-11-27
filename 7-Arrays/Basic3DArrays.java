@@ -17,8 +17,15 @@ public class Basic3DArrays {
             }
         };
 
-        for(int i=0; i<)
-        System.out.println()
-        
+        for(int i=0; i<college.length; i++){
+            for(int j=0; j<college.length; j++) {
+                for(int k=0; j<college.length; j++) {
+                    
+                }
+
+            }
+
+        }
+
     }
 }
