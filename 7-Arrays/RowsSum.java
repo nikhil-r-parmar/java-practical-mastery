@@ -15,9 +15,7 @@ public class RowsSum {
         int s3sum = 0;
 
         for(int i=0; i<marks.length; i++) {
-            for(int j=0; j<(marks[i].length); j++) {
-                
-            }
+           
         }
 
     }
