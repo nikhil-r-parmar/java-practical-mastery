@@ -18,5 +18,13 @@ public class MatrixAddition {
 
         int[][] sumMatrix = new int[3][3];
 
+        for(int i=0; i<matrixA.length; i++) {
+            for(int j=0; j<matrixB.length; j++) {
+                System.out.println(matrixA[i][j]);
+                System.out.println(matrixB[i][j]);
+
+            }
+        }
+
     }
 }
